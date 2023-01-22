@@ -1,10 +1,8 @@
 # [turborepo-demo](https://github.com/murshidazher/turborepo-demo)
 
-> The documentation for why turborepo can be found [here](https://turbo.build/repo/docs/handbook/what-is-a-monorepo)
+> :deciduous_tree: Getting started official docs could be found [here](https://turbo.build/repo/docs/getting-started/create-new)
 
 A turbo repo monorepo management demonstration.
-
-- Getting started official docs could be found [here](https://turbo.build/repo/docs/getting-started/create-new).
 
 ## Table of Contents
 
@@ -21,6 +19,8 @@ A turbo repo monorepo management demonstration.
   - [License](#license)
 
 ## Why
+
+> 💡The documentation for why turborepo can be found [here](https://turbo.build/repo/docs/handbook/what-is-a-monorepo)
 
 - Rather than using the traditional `polyrepo` structure where shared modules are kept in separate repositories so they can be re-used, `monorepo` keeps all the dependent modules inside the same repository
 - This eliminates the major drawback of `polyrepo` where when we need to update a shared module; we need to make a release and then put a PR for all the associated repos for version bump
